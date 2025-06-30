@@ -1,25 +1,12 @@
-* {
-  box-sizing: border-box;
-  margin:0;
-  padding: 0;
-}
+.card{
+    border: 1px solid hsl(0, 0%, 70%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 37%, 0.425);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 530px;
+    display: inline-block;
 
-body {
-  padding: 40px;
-  background-color: #151515;
-  font-family: "Franklin Gothic Medium", Arial;
-}
 
-h2 {
-  color: #f3f3f3;
-  text-align: center;
-  margin-bottom: 30px;
-  font-size:48px;
-}
-.card-container{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  max-width: 1024px;
-  margin: 0 auto;
 }
